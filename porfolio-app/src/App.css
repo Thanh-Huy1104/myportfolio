@@ -111,7 +111,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
-    color: rgb(0, 94, 255) !important;
+    color: rgb(255, 237, 77) !important;
 }
 span.navbar-text {
     display: flex;
@@ -242,7 +242,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url(../src/assets/img/background.svg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
