@@ -10,7 +10,7 @@ const Projects = () => {
             </Col>
             <Col>
                 <h5>Featured Project: Space Wizards Adventure</h5>
-                <p>Space Wizard's Adventure was a simple game I made for an undegraduate class. To me, it was one of the core projects that initially made me intersted in coding. It uses lightweight block based programming.</p>
+                <p>Space Wizard's Adventure was a simple game I made for an undegraduate class. To me, it was one of the core projects that initially made me interested in coding. It uses lightweight block based programming.</p>
             </Col>    
         </Row>
     </Container>
