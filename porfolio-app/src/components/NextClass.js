@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import Next_Class from '../assets/img/next-class.svg';
 
 const NextClass = () => {
+  
   return (
     <Container className="projects-container2">
     <Row>

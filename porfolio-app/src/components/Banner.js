@@ -50,7 +50,7 @@ const Banner = () => {
                     <span className="tagline">Welcome to my Portfolio</span>
                     <h1>{`Hi there, I am a`}<span className='wrap'><br/>{text}</span></h1>
                     <p>My name is Thanh-Huy and I'm currently a student in university studying to become a future software engineer. I'm passionate about learning new things and I'm always looking for new opportunities to learn and grow.</p>
-                    <button onClick={() => console.log('connect')}> Let's connect <ArrowRightCircle size={25}/></button>
+                    <a href='mailto:etienne01.nguyen@gmail.com'>Let's connect <ArrowRightCircle size={25}/></a>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
                 <img src={headerImg} alt='Header Img'/>

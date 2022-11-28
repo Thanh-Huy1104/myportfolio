@@ -95,7 +95,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #ffffff;
+  background-color: #ffffffa9;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -111,7 +111,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
-    color: rgb(179, 170, 144) !important;
+    color: rgb(0, 94, 255) !important;
 }
 span.navbar-text {
     display: flex;
@@ -242,6 +242,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
+  background-image: url(../src/assets/img/background.svg);
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -272,7 +273,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   width: 96%;
 }
-.banner button {
+.banner a {
   color: rgb(49, 49, 49);
   font-weight: 700;
   font-size: 20px;
@@ -280,15 +281,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
-.banner button svg {
+.banner a svg {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
-.banner button:hover svg {
+.banner a:hover svg {
   margin-left: 25px;
+  color: #000;
+}
+
+.banner a:hover  {
+  color: #000;
 }
 .banner img {
   animation: updown 3s linear infinite;
