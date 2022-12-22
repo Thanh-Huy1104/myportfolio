@@ -5,5 +5,6 @@ import SpaceWizard from "./SpaceWizard";
 import NextClass from "./NextClass";
 import Howtobenice from "./Howtobenice";
 import Footer from "./Footer";
+import About from "./About";
 
-export { NavBar, Banner, Skills, SpaceWizard, NextClass, Howtobenice, Footer };
+export { NavBar, Banner, Skills, SpaceWizard, NextClass, Howtobenice, Footer, About };

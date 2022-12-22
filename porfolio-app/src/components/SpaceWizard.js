@@ -5,7 +5,7 @@ const Projects = () => {
         <Row>
             <Col>
                 <div className='ratio ratio-16x9'>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/MgTjDKk2ZT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe className="img_centered" width="560" height="315" src="https://www.youtube.com/embed/MgTjDKk2ZT8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </Col>
             <Col>

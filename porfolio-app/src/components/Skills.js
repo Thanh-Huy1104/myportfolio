@@ -42,7 +42,7 @@ const Skills = () => {
                         Skills
                     </h2>
                     <p>
-                        I have a wide range of skills and I'm always looking to learn more. Here are some of the technologies I've been working with recently:
+                        I have a wide range of skills and I'm always looking to learn more. <br/>Here are some of the technologies I've been working with recently.
                     </p>
                     <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                         <div className='item'>

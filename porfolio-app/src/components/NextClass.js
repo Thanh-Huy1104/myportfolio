@@ -7,7 +7,7 @@ const NextClass = () => {
     <Container className="projects-container2">
     <Row>
         <Col>
-            <a href='https://github.com/Ji-One1/Next-Class'><img src={Next_Class} alt='Next-class project'></img></a>
+            <a href='https://github.com/Ji-One1/Next-Class'><img className="img_centered" src={Next_Class} alt='Next-class project'></img></a>
         </Col>
         <Col>   
             <h5>Feature Project: Next Class</h5>

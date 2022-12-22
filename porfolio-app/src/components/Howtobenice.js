@@ -18,7 +18,7 @@ const Howtobenice = () => {
             </ul>
         </Col>  
         <Col>
-            <a href='https://github.com/Ji-One1/MAIS-Hacks'><img src={Howtobenice_img} alt='Next-class project'></img></a>
+            <a href='https://github.com/Ji-One1/MAIS-Hacks'><img className="img_centered" src={Howtobenice_img} alt='Next-class project'></img></a>
         </Col>
     </Row>
     </Container>
