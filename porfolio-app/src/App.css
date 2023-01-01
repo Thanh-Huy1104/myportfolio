@@ -341,9 +341,20 @@ footer {
 .skill_container {
   margin: 10%;
   padding: 0 10% 10% 10%;
-  background: #ecede6;
+  background: #eff0e9;
   border: 1px solid #b5b5b500;
-  border-radius: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(154, 151, 151, 0.15);
+
+}
+
+.skill_container:hover {
+  background: #d6d6d6;
+  border: 1px solid #b5b5b500;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 400ms ease-in-out;
 }
 
 .skill_container h3 {
