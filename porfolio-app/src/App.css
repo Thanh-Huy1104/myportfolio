@@ -100,7 +100,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #3b6435c3;
+  background-color: #585b57c3;
   backdrop-filter: blur(8px);
 
 }
@@ -146,7 +146,7 @@ span.navbar-text {
     width: 42px;
     height: 42px;
     position: absolute;
-    background-color: #d0ffdd80;
+    background-color: #f2fff680;
     border-radius: 50%;
     transform: scale(0);
 	transition: 0.3s ease-in-out;
@@ -322,137 +322,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
-/************ Skills Css ************/
-.skill {
-  padding: 0 0 0px 0;
-  position: relative;
-}
-.skill-bx {
-  background: #ffffff;
-  border-radius: 0px;
-  text-align: center;
-  padding: 30px 25px;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-}
-.skill h2 {
-	font-size: 45px;
-	font-weight: 700;
-  color: #000;
-}
-.skill h5 {
-	font-size: 45px;
-	font-weight: 700;
-  color: #000;
-}
-.skill p {
-    color: #000000;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px 0 75px 0;
-}
-.skill-slider {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
-}
-.skill-slider h5 {
-  font-size: 15px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #000;
-}
-.skill-slider .item img {
-  width: 25%;
-  margin: 0 0 15px 0;
-}
-.background-image-left {
-  top: 28%;
-  position: absolute;
-  bottom: 0;
-  width: 40%;
-  z-index: -4;
-}
-
-
-
-/************ Projects Css ************/
-.projects-container1 {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  padding: 0 0 50px 0;
-  margin-top: 10%;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-  
-}
-
-.projects-container2 {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  padding: 0 0 50px 0;
-  margin-top: 10%;
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-
-}
-
-.projects-container1 p, h5{
-  color: #444444  ;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  padding-top: 5%;
-  margin: 20px auto 50px auto;
-  text-align: right;
-  width: 90%;
-}
-.projects-container1 ul {
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  z-index: 2;
- 
-  padding-right: 10px;
-  list-style: none;
-justify-content: flex-end; 
-}
-
-.projects-container1 li {
-  padding-right: 25px;
-  color: #444444;
-
- 
-}
-.projects-container2 p, h5 {
-  color: #444444;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.5em;
-  margin: 20px auto 50px auto;
-  text-align: left;
-  width: 90%;
-  
-}
-
-.projects-container2 ul {
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  z-index: 2;
-  margin: 25px 0px 10px;
-  padding-right: 25px;
-  list-style: none;
-  justify-content: flex-start; 
-}
-
-.projects-container2 li {
-  padding-right: 25px;
-  color: #444444;
-
-}
-
 /*Footer*/
 footer {
   background: #ecede6;
@@ -465,4 +334,33 @@ footer {
 }
 
 
+/*Skills*/
+.skills {
+  color: #000000;
+}
+.skill_container {
+  margin: 10%;
+  padding: 0 10% 10% 10%;
+  background: #ecede6;
+  border: 1px solid #b5b5b500;
+  border-radius: 5px;
+}
 
+.skill_container h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.skill_container p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #000000;
+}
+.top_corner_img {
+  position: relative;
+  top: 20px;
+  left: 105%;
+  width: 64px;
+  height: 64px;
+}
