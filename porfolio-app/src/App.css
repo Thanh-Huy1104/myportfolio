@@ -100,7 +100,7 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #585b57c3;
+  background-color: #ffffffc3;
   backdrop-filter: blur(8px);
 
 }
@@ -345,7 +345,7 @@ footer {
   border: 1px solid #b5b5b500;
   border-radius: 10px;
   cursor: pointer;
-  box-shadow: 0px 0px 10px 0px rgba(154, 151, 151, 0.15);
+  box-shadow: 0px 0px 10px 0px rgba(169, 169, 169, 0.15);
 
 }
 
@@ -374,4 +374,65 @@ footer {
   left: 105%;
   width: 64px;
   height: 64px;
+}
+
+.Contact_container {
+  font-size: small;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 12%;
+  padding: 10%;
+  background: #eff0e9;
+  border: 1px solid #b5b5b500;
+  border-radius: 10px;
+  cursor: pointer;
+  color:#000;
+  box-shadow: 0px 0px 10px 0px rgba(169, 169, 169, 0.15);
+}
+
+.About_container {
+  display: flex;
+  align-items: center;
+  margin: 5%;
+  padding-bottom: 100%;
+  padding: 10%;
+  background: #eff0e9;
+  border: 1px solid #b5b5b500;
+  border-radius: 10px;
+  cursor: pointer;
+  color:#000;
+  box-shadow: 0px 0px 10px 0px rgba(169, 169, 169, 0.15);
+  
+}
+
+.About_container h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.About_img {
+  width: 256px;
+  height: 256px;
+  border-radius: 10px;
+
+}
+
+.pill {
+  background: #eeeeee;
+  border: 1px solid #00000018;
+  border-radius: 10px;
+  cursor: pointer;
+  color:#000;
+  box-shadow: 0px 0px 10px 0px rgba(169, 169, 169, 0.75);
+  padding: 5px;
+  margin: 5px;
+}
+
+.pill:hover {
+  background: #d6d6d6;
+  border: 1px solid #00000018;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 400ms ease-in-out;
 }
