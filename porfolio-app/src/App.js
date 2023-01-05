@@ -11,7 +11,6 @@ function App() {
       <Banner />
       <About />
       <Skill />
-      <NextClass />
       <Footer />
     </div>
   );
