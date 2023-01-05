@@ -10,9 +10,8 @@ const About = () => {
     <section>
     <Container>
         <Row>
-            <Col>
+            <Col className="About_right">
                 <div data-aos="fade-right" data-aos-duration="3000" className="About_container">
-                
                 <p><h2> A little about me</h2>Hi, my name is Thanh-Huy and I'm an aspiring software engineer. I want to learn all new sorts of technogies and apply them to my projects. My end goal is to become a data scientist. I know the road is arduous but I'm here along for the ride. <br/><br/> Using my skills in front-end technologies such as React.js, Node, Git, and SQL, I want to create projects that will synergies AI technogies and web development. That is why I am currently learning how to use Python to create my own AI models.
                 <br/><br/> I am a student at ETS (Ecole de technologie superieure) studying software engineering which is based in Montreal, Quebec and I'm always open for new opportunities to learn, grow, and to work in team environment.
                 </p>
