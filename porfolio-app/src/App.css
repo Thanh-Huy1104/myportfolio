@@ -108,12 +108,29 @@ nav.navbar a.navbar-brand {
     width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
+  
   font-weight: 400;
   color: rgb(80, 83, 65) !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
+}
+
+.navbar-contact {
+  text-decoration: none;
+  color: rgb(247, 205, 38);
+  padding-left: 6%;
+  padding-right: 5%;
+  font-size: 18px;
+  font-weight: 900;
+  
+}
+.navbar-contact:hover {
+  color: rgb(11, 10, 11);
+  text-decoration: none;
+  scale:1.2;
+  transition: ease-in-out 0.3s;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
