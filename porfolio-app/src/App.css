@@ -502,7 +502,6 @@ footer {
 
 @media screen and (max-width: 600px) {
   body {
-    overflow: hidden;
 
   }
   .About_right{
@@ -515,6 +514,7 @@ footer {
   }
   .next-class-container {
     width: 75%;
+    overflow: hidden;
 
   }
   .next-class-content {
@@ -536,7 +536,6 @@ footer {
   .next-class-img img {
     position: relative;
     top: 5px;
-    left: 15%;
-    scale: 1.5;
+    scale: 1;
   }
 }
