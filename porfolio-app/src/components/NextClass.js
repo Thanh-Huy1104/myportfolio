@@ -1,8 +1,11 @@
 import NextClass_Img from '../assets/img/NextClass_img.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const NextClass = () => {
   return (
-    <section>
+    <section data-aos="fade-down" id="projects">
       <div className='next-class-container'>
           <div className='next-class-content'>
             <div className='next-class-title'>
@@ -10,7 +13,7 @@ const NextClass = () => {
             <h1>Next Class | Scheduler</h1>
             </div>
           <div className='next-class-text'>
-            <p>Next Class is a web app that allos the McGill Students to sync their class schedule and get notified when the next class is about to start. This project was made in collabaration with 3 other students at a Hackaton at Mcgill University. I was responsible for the front-end development of the app. I used React.js for the front-end development and Firebase for the back-end development.
+            <p>Next Class is a web app that allows McGill Students to sync their class schedules and get notified when their next class is about to start. This project was made in collabaration with 3 other students at a Hackaton at Mcgill University. The project uses React.js for the front-end and Firebase for the back-end.
             </p>
           </div>
        </div>

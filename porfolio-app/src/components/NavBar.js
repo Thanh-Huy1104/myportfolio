@@ -6,8 +6,8 @@ import Logo from '../assets/img/Logo.svg';
 import Linkedin_logo from '../assets/img/linkedin.png';
 import Github_logo from '../assets/img/github.png';
 import Discord_logo from '../assets/img/discord.png';
-import CV from '../assets/Thanh-Huy_Nguyen_CV.pdf';
-
+import CV from '../assets/img/Thanh-Huy_Nguyen_CV.pdf';
+import Reddit_logo from '../assets/img/reddit_logo.png';
 
 
 const NavBar = () => {
@@ -52,9 +52,10 @@ const NavBar = () => {
           </Nav>
           <span className='navbar-text'>
            <div className='social-icon'>
-              <a href='https://discordapp.com/users/274340204939313153'><img src={Discord_logo} alt='Discord Logo'/></a>
-              <a href='https://www.linkedin.com/in/thanh-huy-nguyen-703606220/'><img src={Linkedin_logo} alt='Linkedin Logo'/></a>
-              <a href='https://github.com/Thanh-Huy1104'><img src={Github_logo} alt='Github logo'/></a>
+              <a href='https://discordapp.com/users/274340204939313153'><img src={Discord_logo} alt='Discord'/></a>
+              <a href='https://www.linkedin.com/in/thanh-huy-nguyen-703606220/'><img src={Linkedin_logo} alt='Linkedin'/></a>
+              <a href='https://github.com/Thanh-Huy1104'><img src={Github_logo} alt='Github'/></a>
+              <a href='https://www.reddit.com/user/ThanhHuy1104'><img src={Reddit_logo} alt='Reddit'/></a>
 
            </div>
           </span>

@@ -495,15 +495,13 @@ footer {
   width: 100%;
   height: 300px;
   border-radius: 10px;
+  margin-top: -100px;
 }
 .next-class-img img {
-  scale: 1.2
+  scale: 1; 
 }
 
 @media screen and (max-width: 600px) {
-  body {
-
-  }
   .About_right{
     display: none;
   }
@@ -531,7 +529,7 @@ footer {
     width: 100%;
     height: 100px;
     border-radius: 10px;
-
+    margin-top: 0px;
   }
   .next-class-img img {
     position: relative;
