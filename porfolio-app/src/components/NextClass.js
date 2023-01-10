@@ -13,7 +13,7 @@ const NextClass = () => {
             <h1>Next Class | Scheduler</h1>
             </div>
           <div className='next-class-text'>
-            <p>Next Class is a web app that allows McGill Students to sync their class schedules and get notified when their next class is about to start. This project was made in collabaration with 3 other students at a Hackaton at Mcgill University. The project uses React.js for the front-end and Firebase for the back-end.
+            <p>Next Class is a web app that allows McGill Students to sync their class schedules and get notified when their next class is about to start. This project was made in collabaration with 3 other students at a Hackaton at Mcgill University. The project uses React.js for the front-end and Firebase for the back-end. 
             </p>
           </div>
        </div>
