@@ -34,7 +34,7 @@ const Skill = () => {
                     </div>
                 </Col>
                 <Col xs={12} md={6} xl={4}>
-                    <div data-aos="fade-down" data-aos-duration="3000" className="skill_container">
+                    <div data-aos="fade-down" className="skill_container">
                         <img src={HTML} className="top_corner_img" alt='Me'/>
                         <h3>HTML/CSS</h3>
                         <p>A good site is nothing without styling, I believe that design changes who your customers effectivly choose who to work with.</p>
