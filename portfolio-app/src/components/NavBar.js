@@ -6,7 +6,6 @@ import Logo from '../assets/img/Logo.svg';
 import Linkedin_logo from '../assets/img/linkedin.png';
 import Github_logo from '../assets/img/github.png';
 import Discord_logo from '../assets/img/discord.png';
-import CV from '../assets/img/Thanh-Huy_Nguyen_CV.pdf';
 import Reddit_logo from '../assets/img/reddit_logo.png';
 
 
@@ -46,7 +45,6 @@ const NavBar = () => {
             <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link': 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
             <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link': 'navbar-link'}  onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
             <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link': 'navbar-link' }  onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-            <a href={CV} target='_blank' rel='noreferrer' className='navbar-contact'>CV</a>
             <a href='mailto:etienne01.nguyen@gmail.com' className='navbar-contact'>Connect</a>
 
           </Nav>

@@ -23,14 +23,15 @@ const About = () => {
                     <h5>Skills</h5>
                     <p className="pill">Front-End</p>
                     <p className="pill">Graphic Design</p>
+                    <br/>
+                    <br/>
                     <h5>Location</h5>
                     <p>Montreal, QC</p>
                     <h5>Email</h5>
                     <p>etienne01.nguyen@gmail.com</p>
-                    <h5>Phone</h5>
-                    <p> (438) 409-1737</p>
                     <h5>Education</h5>
                     <p>ETS (Ecole de technologie superieure) - Software Engineering 2022-2027</p>
+                    <br/>
                     <h5>Languages</h5>
                     <p className="pill">English</p>
                     <p className="pill">French</p>

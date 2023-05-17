@@ -13,7 +13,7 @@ const Project = ({text, title, img, link}) => {
             <h1>{title}</h1>
             </div>
           <div className='next-class-text'>
-            <p>{text}</p>
+            {text}
           </div>
        </div>
        <div className='next-class-img'>

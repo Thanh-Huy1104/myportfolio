@@ -1,5 +1,5 @@
 import './App.css';
-import {NavBar, Banner, Footer, Skill, About, NextClass, RedBird, } from './components/index';
+import {NavBar, Banner, Footer, Skill, About, NextClass, RedBird, Sickness, } from './components/index';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -13,6 +13,7 @@ function App() {
       <Skill />
       <NextClass />
       <RedBird />
+      <Sickness />
       <Footer />
     </div>
   );

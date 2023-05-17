@@ -8,7 +8,7 @@ import SQL_logo from '../assets/img/SQL.svg'
 import Firebase_logo from '../assets/img/firebase.svg'
 import Illustrator_logo from '../assets/img/illustrator.svg'
 import Solidworks_logo from '../assets/img/solidworks.svg'
-
+import Java_logo from '../assets/img/java.svg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
@@ -84,6 +84,15 @@ const Skill = () => {
                         <img src={Solidworks_logo} className="top_corner_img" alt='Me'/>
                         <h3>SolidWorks/AutoCAD</h3>
                         <p>Both are technogies that I am comfortable with. I'm proud that I have the change to often be able to print out these projects on my 3D printer.</p>
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col xs={12} md={6} xl={4}>
+                    <div data-aos="fade-down" className="skill_container">
+                        <img src={Java_logo} className="top_corner_img" alt='Me'/>
+                        <h3>Java</h3>
+                        <p>Java is a language that I've been using for the past years. I've used it for many projects such as UI design and learning OOP.</p>
                     </div>
                 </Col>
             </Row>
