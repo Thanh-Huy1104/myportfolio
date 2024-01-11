@@ -1,10 +1,10 @@
-Portfolio App
+# Portfolio App
 
-Overview
+#### Overview
 
 This portfolio app showcases my personal and professional projects, skills, and experiences. It's designed to provide a comprehensive view of my work and accomplishments.
 
-Features
+### Features
 
 Project Showcase: Detailed descriptions and insights into each of my projects.
 
@@ -14,11 +14,11 @@ Professional Experience: Information about my professional journey and roles I'v
 
 Contact Information: How to reach me for opportunities or collaborations.
 
-Live Demo
+### Live Demo
 Visit the live version of the app here.
 https://myportfolio-five-rho.vercel.app/
 
-Screenshots
+#### Screenshots
 
 <img width="1624" alt="Screenshot 2024-01-11 at 10 32 27 AM" src="https://github.com/Thanh-Huy1104/myportfolio/assets/86750072/de4e5d46-220d-4623-a544-303f072c0707">
 <img width="1624" alt="Screenshot 2024-01-11 at 10 32 55 AM" src="https://github.com/Thanh-Huy1104/myportfolio/assets/86750072/b93ffc5a-5476-45ba-9332-85a3478b4eb3">
@@ -60,5 +60,3 @@ Thanh-Huy Nguyen
 Thanh-Huy1104
 
 etienne01.nguyen@gmail.com
-
-License MIT licensed.
