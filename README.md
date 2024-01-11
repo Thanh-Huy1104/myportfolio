@@ -1,11 +1,19 @@
 Portfolio App
+
 Overview
+
 This portfolio app showcases my personal and professional projects, skills, and experiences. It's designed to provide a comprehensive view of my work and accomplishments.
+
 Features
+
 Project Showcase: Detailed descriptions and insights into each of my projects.
+
 Skills Overview: A summary of my technical and soft skills.
+
 Professional Experience: Information about my professional journey and roles I've held.
+
 Contact Information: How to reach me for opportunities or collaborations.
+
 Screenshots
 
 Live Demo
