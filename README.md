@@ -43,12 +43,16 @@ Installation and Setup
   ```
 
 Technologies Used
-React JS
-HTML
-CSS
+- React JS
+- HTML
+- CSS
+
 Contributions, issues, and feature requests are welcome!
+
 Thanh-Huy Nguyen
+
 Thanh-Huy1104
+
 etienne01.nguyen@gmail.com
-License
-This project is MIT licensed.
+
+License MIT licensed.
