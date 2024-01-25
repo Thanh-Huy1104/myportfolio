@@ -1,7 +1,17 @@
-import './App.css';
-import {NavBar, Banner, Footer, Skill, About, NextClass, RedBird, Sickness, } from './components/index';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "./App.css";
+import {
+  NavBar,
+  Banner,
+  Footer,
+  Skill,
+  About,
+  NextClass,
+  RedBird,
+  Sickness,
+  BuildABook,
+  GoodLuckTruck
+} from "./components/index";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 //Not using skills rn
 function App() {
@@ -10,10 +20,18 @@ function App() {
       <NavBar />
       <Banner />
       <About />
-      <Skill />
+      <div className="title">
+        <h1>Projects</h1>
+      </div>
+      <BuildABook />
+      <GoodLuckTruck />
+      <Sickness />
       <NextClass />
       <RedBird />
-      <Sickness />
+      <div className="title">
+        <h1>Skills</h1>
+      </div>
+      <Skill />
       <Footer />
     </div>
   );
